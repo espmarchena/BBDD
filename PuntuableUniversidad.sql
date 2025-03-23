@@ -75,3 +75,29 @@ from persona p
 join alumno_se_matricula_asignatura ama on ama.id_alumno = p.id
 join curso_escolar ce on ama.id_curso_escolar = ce.id
 where p.tipo = 'alumno' and ce.id = 5;
+
+ -- Consultas multitabla (Composición externa)
+ -- Resuelva todas las consultas utilizando las cláusulas LEFT JOIN y RIGHT JOIN.
+ -- 1. Devuelve un listado con los nombres de todos los profesores y los departamentos que tienen vinculados.
+ -- El listado también debe mostrar aquellos profesores que no tienen ningún departamento asociado.
+ -- El listado debe devolver cuatro columnas, nombre del departamento, primer apellido, segundo apellido y nombre del profesor.
+ -- El resultado estará ordenado alfabéticamente de menor a mayor por el nombre del departamento, apellidos y el nombre.
+
+
+ -- 2. Devuelve un listado con los profesores que no están asociados a un departamento.
+
+
+ -- 3. Devuelve un listado con los departamentos que no tienen profesores asociados.
+
+
+ -- 4. Devuelve un listado con los profesores que no imparten ninguna asignatura.
+
+
+ -- 5. Devuelve un listado con las asignaturas que no tienen un profesor asignado.
+
+
+ -- 6. Devuelve un listado con todos los departamentos que tienen alguna asignatura que no se haya impartido en ningún curso escolar.
+ -- El resultado debe mostrar el nombre del departamento y el nombre de la asignatura que no se haya impartido nunca
+ 
+
+ 
